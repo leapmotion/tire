@@ -27,10 +27,10 @@ Gem::Specification.new do |s|
   # = Library dependencies
   #
   s.add_dependency "rake"
-  s.add_dependency "rest-client", "~> 1.6"
-  s.add_dependency "multi_json",  "~> 1.3"
+  s.add_dependency "rest-client", ">= 1.6"
+  s.add_dependency "multi_json",  ">= 1.3"
   s.add_dependency "activemodel", ">= 3.0"
-  s.add_dependency "hashr",       "~> 0.0.19"
+  s.add_dependency "hashr",       ">= 0.0.19"
   s.add_dependency "activesupport"
   s.add_dependency "ansi"
 
